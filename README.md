@@ -1,1 +1,1 @@
-# Spectra-Beaut--website
+# Spectra-Beaute-website
