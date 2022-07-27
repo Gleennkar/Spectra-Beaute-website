@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+  .navdiv {
+     background-color: white; 
+     border-bottom: #ec5242 3px solid; 
+    
+  }
+  
+  
+  nav img {
+    height: 80px; 
+  }
+  
+  nav .navlinks {
+    width: 46%;
+  }
+
+  /* header { 
+    background-image: linear-gradient(to top right, rgba(124, 103, 107, 9.87), rgba(0, 0, 0, 0.1)), url("./Images/Nail-pic.JPG"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: rgb(12, 12, 12);
+     height: 88vh; 
+  }*/
+
+
+
+  .intro {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(243, 243, 243); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-right: 5rem;
+  }
+  
+  .intro::before {
+    content: "";
+    background-image: linear-gradient(to top right, rgba(124, 103, 107, 9.87), rgba(0, 0, 0, 0.1)), url("./Images/Nail-pic.JPG"); 
+    background-size: cover;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    opacity: 0.1;
+  }
+  
+  h1 {
+    background: -webkit-linear-gradient(red, rgb(74, 85, 86));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    line-height: 0.9;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 2rem;
+    margin-top: 8%;
+    
+  }
+  
+  .intro-message {
+    background: -webkit-linear-gradient(red, rgb(74, 85, 86));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    font-size: 24px;
+    padding-left: 2rem;
+  
+   
+  }
+
+  .intro-desc {
+    border: 2px solid white;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+     margin: 2rem; 
+    padding: 1rem;
+    max-width: 550px;
+ 
+  }
+  
+  .intro-date {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 2rem;
+    /* margin-top: 10%; */
+  }
+nav .navlinks .active {
+    color: #ec5242;
+  }
+  
+  nav div button {
+    border: #ec5242 4px solid;
+    color: #ec5242;
+    padding: 5px 10px;
+    background-color: white;
+  }
+
+  nav .navlinks a {
+    color: #272a31;
+  }
+
+  .news-events {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  
+  .news-events h2 {
+    color: white;
+  }
+  
+  .line {
+    height: 1px;
+    background-color: #e43c13;
+    width: 50px;
+  }
+  
+  
+  .card-body {
+    background-color: #272a31;
+    align-items: center;
+    height: 55%;
+  }
+  
+  .card-body p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .card-img-top {
+    width: 25%;
+  }
+  
+  .card-body .card-title {
+    color: #e43c13;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .card:hover {
+    border: 2px solid #e43c13;
+  }
+  
+  .btn-outline-secondary {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin: 10px 48px;
+    padding: 24px;
+    background-color: #ec5242;
+    color: #fff;
+  }
+
+  #img {
+    height: 42%;
+  }
+
+  .redline {
+    width: 70px;
+    border-top: #ec5242 2px solid;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+  
+  .roundimg {
+    height: 170px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #ec5242 5px solid;
+    margin-right: 2em;
+  }
+  
+
+  .sec2 h5 {
+    font-weight: bold;
+  }
+  
+  .sec2 small {
+    color: #ec5242;
+    font-style: italic;
+  }
+
+  .sec2 {
+    margin-left: 3rem;
+    margin-right: 4rem;
+  }
+
+  aside {
+    background-color: #272a31;
+  }
+  
+  footer img {
+    height: 100px;
+  }
+  
+  footer .footerlinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner {
+    height: 80px;
+  }
+
+  
+footer .footericons a {
+    color: #272a31;
+  }
+  
+  footer .footerlinks a {
+    color: #272a31;
+    text-decoration: none;
+    padding: 0 1vw;
+  }
+  
+  footer a:hover {
+    color: #ec5242;
+  }
+
+  .mr-5 {
+    width: 15%; 
+    margin-left: 8%;
+  }
+
+  footer #icon {
+    display: inline;
+  }
+
+@media screen and (min-width: 768px) {
+    .card-body {
+        height: 36%;
+    }
+
+    #img {
+        height: 61%;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+    
+}
+  
