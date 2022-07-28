@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Spectra-Beauté-Website</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <header>
+          <div class="medias">
+
+            <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  />
+                </svg>
+              </a>
+  
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+            </a>
+  
+            <span class="span">Logout</span>
+            <span class="span">MyPage</span>
+            <span class="span">English</span>
+          </div>
+        </header>
+    </nav>
+
+    <div class="container-fluid"></div>
+        <div class="navdiv sticky-top"></div>
+          <nav class="navbar d-none d-md-flex maxwidth ">
+             <a href="index.html"><img class="navbar-brand" src="./Images/Spectra-logo.webp" alt="Spectra-logo logo"> </a> 
+             <div class="navlinks d-md-flex justify-content-between align-items-center">          
+               <a href="index.html">Home</a>
+               <a href="#" class="active">About</a>
+               <a href="Services">Services</a>
+               <a href="#" class="nav-link disabled">Contact</a> 
+               <button type="button">Book Now</button>  
+             </div>
+           </nav>
+        
+           <div class="menu">
+
+			<div id="myNav" class="overlay">
+
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+				<div class="overlay-content">
+					<a href="#Home" onclick="closeNav()">Home</a>
+					<a href="#" onclick="closeNav()">About</a>
+					<a href="#Services" onclick="closeNav()">Services</a>
+                    <a href="#" onclick="closeNav()">Contact</a>
+				</div>
+			</div>
+           <nav class="d-flex justify-content-between d-md-none maxwidth smallnav pl-3 navbar ">        
+            <a href="index.html"><img class="navbar-brand img1" src="./Images/Spectra-logo.webp" alt="Spectra logo"></a>         
+            <span  onclick="openNav()" class="fas fa-bars" data-toggle="collapse" data-target="#collapsibleNavbar"></span>
+            <div class="collapse navbar-collapse py-2" id="collapsibleNavbar">
+                <ul class="navbar-nav pl-3 float-right bg-light">
+                    <li class="navlinks "><a href="index.html">Home</a></li>
+                    <li class="navlinks"><a href="about.html">About</a></li>
+                    <li class="navlinks"><a  href="Services">Services</a></li>
+                </ul>
+            </div>          
+        </nav>
+     </div>  
+
+     <section class="about">
+        <div class="about-content">
+            <h1>Welcome to Spectra Beauté</h1>
+          <h2 class="message">"We believe in our responsibility to inspire"</h2>
+        </div>
+        <div class="Description">
+          <p>
+            Spectra Beauté is considered by most as the leading beauty and wellness salon/spa in Cameroon (and arguably Central Africa). A source of inspiration and wellbeing and my love for this brand is embedded through this creative web-design and the joy, peace i feel when using its exceptional and unique products.
+          </p>
+        </div>
+        <div class="contact-us">
+          <p>Please Contact us through Email or Calls to book for an appointment</p>
+          <p>At Spectra Beauté</p>
+          <span>nkargleeny@gmail.com</span>
+        </div>
+      </section>
+
+      <section class="about-logo">
+        <h2>Beauty, Wellness, Inspiration and Wellbeing Only at Spectra</h2>
+        <div class="line"></div>
+        <p class="about-logo-desc">
+            Spectra Beauty is a high end Nail, Beauty & Hair clinic dedicated to quality services. Brow Bar, Lash extensions, Massage, Facial, Hair extensions.
+        </p>
+        <div class="intro-about-desc">
+          <div class="footer-logo">
+            <img class="footer-img" src="./Images/Spectra-logo.webp" alt="Spectra-logo" />
+            <!-- <div class="footer-name"> 
+              <p>Spectra</p>
+              <p>Beauté</p>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      
+      <div><hr class="divider"></div>
+      <section class="about-started">
+        <h2>Our Activities</h2>
+        <div class="line"></div>
+        <p>
+          Spectra Beauté has existed for Ten years now. And the journey has being full of growth creativity and inspiration.
+        </p>
+        <div class="activities" id="sum">
+          <div class="activity">
+            <img src="./Images/Spec-store.JPG" class="spec-img" alt="started1">
+            <h2>2019</h2>
+            <p>Spectra Professional Our Store</p>
+          </div>
+          <div class="activity">
+            <img src="./Images/Spec-team.JPG" class="spec-img" alt="Team-spectra" />
+            <h2>2022</h2>
+            <p>Without Team Spectra there's no Spectra</p>
+          </div>
+        </div>
+      </section>
+      
+      <footer id="foot">
+        <div class="footer-logo">
+          <img class="footer-img1" src="./Images/Spectra-logo.webp" alt="Spectra logo">
+        </div>
+        <div class="footer-message msg">
+          <p>@Spectra Beauté will always be there for you to give you the peace and comfort you deserve</p>
+          <p>A source od inspiration and wellbeing Spectra Beauté</p>
+        </div>
+      </footer>
+    
+
+
+     <script src="./js/index.js"></script>
+</body>
+</html>
