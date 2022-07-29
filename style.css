@@ -31,6 +31,10 @@ nav img {
   height: 80px;
 }
 
+.navbar-brand-img1 {
+  display: none;
+}
+
 .overlay a {
   padding: 21px;
   text-decoration: none;
@@ -47,18 +51,6 @@ nav .navlinks {
   width: 46%;
 }
 
-/* header {
-    background-image: linear-gradient(to top right, rgba(124, 103, 107, 9.87), rgba(0, 0, 0, 0.1)), url("./Images/Nail-pic.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    color: rgb(12, 12, 12);
-     height: 88vh;
-  } */
-
 .intro {
   height: 100vh;
   width: 100%;
@@ -67,7 +59,8 @@ nav .navlinks {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
 
   /* padding-right: 5rem; */
 }
@@ -114,14 +107,18 @@ h1 {
   margin: 2rem;
   padding: 1rem;
   max-width: 550px;
+  margin-left: -7rem;
 }
 
 .intro-date {
   font-size: 20px;
   font-weight: 800;
   margin-left: 2rem;
+  margin-left: -10rem;
+}
 
-  /* margin-top: 10%; */
+.intro span {
+  margin-left: -24rem;
 }
 
 nav .navlinks .active {
@@ -145,6 +142,7 @@ nav .navlinks a {
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
+  gap: 5px;
 }
 
 .news-events h2 {
@@ -157,25 +155,23 @@ nav .navlinks a {
   width: 50px;
 }
 
-.card-body {
-  background-color: #272a31;
-  align-items: center;
-  height: 55%;
-}
-
 .card-body p {
   color: white;
   font-size: 14px;
 }
 
 .card-img-top {
-  width: 25%;
+  width: 17%;
 }
 
 .card-body .card-title {
   color: #e43c13;
   font-size: 18px;
   margin-right: 5px;
+}
+
+.card {
+  background-color: #272a31;
 }
 
 .card:hover {
@@ -282,9 +278,9 @@ footer a:hover {
 }
 
 #mr-5 {
-  width: 29%;
-  margin-left: 52%;
-  margin-bottom: -17%;
+  width: 70%;
+  margin-left: 27%;
+  margin-bottom: -47%;
 }
 
 footer #icon {
@@ -346,13 +342,6 @@ footer #icon {
   justify-content: center;
 }
 
-.about-content h1 {
-  font-size: 50px;
-  position: relative;
-  text-align: center;
-  margin-top: 29%;
-}
-
 .Description {
   width: 80%;
   font-size: 20px;
@@ -412,7 +401,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 3rem;
+  padding: 0;
   color: #d3d3d3;
 }
 
@@ -518,19 +507,14 @@ footer {
 
 .partners {
   display: flex;
-  flex-wrap: wrap;
+
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
 .partner1 {
   padding: 1rem;
-  color: #ffa500;
   font-size: 30px;
-}
-
-.partner3 {
-  padding: 1rem;
-  width: 33%;
 }
 
 .partner4 {
@@ -544,13 +528,54 @@ footer {
   margin-left: 89px;
 }
 
+.card-img {
+  width: 17%;
+}
+
+.card-body {
+  height: 53%;
+  border: 1px solid white;
+  background-color: #272a31;
+  align-items: center;
+}
+
+.partner3 {
+  padding: 1rem;
+  width: 82%;
+  margin-bottom: -42px;
+}
+
 @media screen and (min-width: 768px) {
   #foot {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
-    background-color: #272a31;
+
+    /* background-color: #272a31; */
+  }
+
+  .partner3 {
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: -42px;
+  }
+
+  #mr-5 {
+    width: 51%;
+    margin-left: 41%;
+    margin-bottom: -36%;
+  }
+
+  h1 {
+    margin-top: 5%;
+  }
+
+  .about-content h1 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    margin-top: 29%;
   }
 
   footer {
@@ -558,7 +583,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
-    background-color: #d3d3d3;
+    background-color: white;
   }
 
   header {
@@ -585,7 +610,8 @@ footer {
   }
 
   .card-body {
-    height: 36%;
+    height: 53%;
+    border: 1px solid white;
   }
 
   #img {
@@ -594,6 +620,32 @@ footer {
 
   .card-img-top {
     width: 100%;
+  }
+
+  .card-img {
+    height: 44%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 975px) {
+  .about-content h1 {
+    margin-top: 11px;
+  }
+
+  footer {
+    color: #d3d3d3;
+  }
+
+  .partner3 {
+    padding: 1rem;
+    width: 33%;
+  }
+
+  #mr-5 {
+    width: 29%;
+    margin-left: 52%;
+    margin-bottom: -17%;
   }
 }
 
