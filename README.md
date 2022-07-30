@@ -32,8 +32,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](https://gleennkar.github.io/Spectra-Beaute-website/)
-
+[Live Demo Link](https://rawcdn.githack.com/Gleennkar/Spectra-Beaute-website/5e09f300bd1ffbbb92cb3643930e14b2b9a8dcc8/index.html)
 
 ## Getting Started
 To get a local copy of this repository, please run the following commands on your terminal
