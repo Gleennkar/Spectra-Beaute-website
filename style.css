@@ -20,6 +20,7 @@ header {
 
 a {
   text-decoration: none;
+
 }
 
 .navdiv {
@@ -31,9 +32,9 @@ nav img {
   height: 80px;
 }
 
-.navbar-brand-img1 {
+ /* .navbar-brand-img1 { 
   display: none;
-}
+} */
 
 .overlay a {
   padding: 21px;
@@ -47,9 +48,9 @@ nav img {
   margin-left: 53px;
 }
 
-nav .navlinks {
+/* nav .navlinks { 
   width: 46%;
-}
+}*/
 
 .intro {
   height: 100vh;
@@ -117,25 +118,39 @@ h1 {
   margin-left: -1rem;
 }
 
+.about h1 {
+  text-align: center;
+}
+
 .navbar-brand {
   display: none;
 }
 
+.about-logo h2 {
+  text-align: center;
+}
+
+.footer-message-msg {
+  color: black;
+  margin-top: 12px;
+  padding-left: 29px;
+} 
+
 .intro-date {
   font-size: 20px;
   font-weight: 800;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .intro span {
-  margin-left: -9rem;
+  margin-left: -14rem;
 }
 
-.navbar { 
+ .navbar { 
     flex-wrap: wrap;
     align-items: center;
     padding: 0.5rem 1rem;
-    float: left;
+    /* float: left; */
 }
 
 nav .navlinks .active {
@@ -151,6 +166,7 @@ nav div button {
 
 nav .navlinks a {
   color: #272a31;
+  padding: 25px;
 }
 
 .news-events {
@@ -508,6 +524,7 @@ footer {
   align-items: center;
   padding-top: 2rem;
   background-color: #272a31;
+  margin-top: 6%;
 }
 
 .partners-section1 {
@@ -520,6 +537,10 @@ footer {
 }
 
 .partners-section1 h2 {
+  color: white;
+}
+
+.partners-section h2 {
   color: white;
 }
 
@@ -563,6 +584,14 @@ footer {
   margin-bottom: -42px;
 }
 
+.navbar-brand-img1 {
+display: none;
+}
+
+.navbar span {
+  margin-right: 100%;
+}
+
 @media screen and (min-width: 768px) {
   #foot {
     display: flex;
@@ -578,12 +607,11 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    float: left;
 }
 
-  .navbar-brand {
+  /* .navbar-brand { 
     display: inline-block;
-  }
+  } */
 
   .partner3 {
     padding: 1rem;
@@ -612,7 +640,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 3rem;
+    padding: 1rem;
     background-color: white;
   }
 
@@ -662,6 +690,10 @@ footer {
     color: black;
     margin-top: 11px;
 }
+
+#footer {
+  background-color: #272a31;
+}
 }
 
 @media (min-width: 975px) {
@@ -669,8 +701,8 @@ footer {
     margin-top: 11px;
   }
 
-  .navbar-brand {
-    display: inline-block;
+  .partners-section1 {
+    display: none;
   }
 
   .navbar { 
@@ -678,9 +710,26 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    float: right;
+    margin-top: -12px;
+    margin-bottom: -17px;
 }
 
+  .card-img {
+    height: 50%;
+    width: 100%;
+}
+
+  #foot {
+    background-color: #272a31;
+  }
+
+  .footer-message-msg {
+    color: white;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+  }
 
   .intro-desc {
     border: 2px solid white;
@@ -747,8 +796,8 @@ footer {
 
 .overlay .closebtn {
   position: absolute;
-  top: -6px;
-  right: 0;
+  top: -32px;
   font-size: 47px;
   font-weight: 100;
+  margin-left: -11px;
 }
