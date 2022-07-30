@@ -107,18 +107,35 @@ h1 {
   margin: 2rem;
   padding: 1rem;
   max-width: 550px;
-  margin-left: -7rem;
+  /* margin-left: -7rem; */
 }
 
 .intro-date {
   font-size: 20px;
   font-weight: 800;
   margin-left: 2rem;
-  margin-left: -10rem;
+  margin-left: -1rem;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.intro-date {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 2rem;
 }
 
 .intro span {
-  margin-left: -24rem;
+  margin-left: -9rem;
+}
+
+.navbar { 
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    float: left;
 }
 
 nav .navlinks .active {
@@ -411,10 +428,11 @@ footer {
 }
 
 .footer-message {
-  width: 84%;
-  height: 0%;
+  /* width: 84%; */
+  /* height: 0%; */
   margin-right: 72px;
   color: black;
+  margin-top: 12px;
 }
 
 .divider {
@@ -555,6 +573,18 @@ footer {
     /* background-color: #272a31; */
   }
 
+  .navbar { 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    float: left;
+}
+
+  .navbar-brand {
+    display: inline-block;
+  }
+
   .partner3 {
     padding: 1rem;
     width: 60%;
@@ -623,15 +653,56 @@ footer {
   }
 
   .card-img {
-    height: 44%;
+    height: 53%;
     width: 100%;
   }
+
+  .footer-message {
+    margin-right: 72px;
+    color: black;
+    margin-top: 11px;
+}
 }
 
 @media (min-width: 975px) {
   .about-content h1 {
     margin-top: 11px;
   }
+
+  .navbar-brand {
+    display: inline-block;
+  }
+
+  .navbar { 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    float: right;
+}
+
+
+  .intro-desc {
+    border: 2px solid white;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 550px;
+    margin-left: -7rem;
+  }
+
+  .intro-date {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 2rem;
+    margin-left: -10rem;
+  }
+  
+  .intro span {
+    margin-left: -24rem;
+  }
+  
 
   footer {
     color: #d3d3d3;
