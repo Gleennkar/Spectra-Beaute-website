@@ -31,10 +31,6 @@ nav img {
   height: 80px;
 }
 
-/* .navbar-brand-img1 {
-  display: none;
-} */
-
 .overlay a {
   padding: 21px;
   text-decoration: none;
@@ -46,10 +42,6 @@ nav img {
   font-family: 'Poppins', sans-serif;
   margin-left: 53px;
 }
-
-/* nav .navlinks {
-  width: 46%;
-} */
 
 .intro {
   height: 100vh;
@@ -87,7 +79,8 @@ h1 {
   font-size: 55px;
   font-weight: bold;
   padding: 2rem;
-  margin-top: 15%;
+
+  /* margin-top: 15%; */
 }
 
 .intro-message {
@@ -115,7 +108,7 @@ h1 {
   font-size: 20px;
   font-weight: 800;
   margin-left: 2rem;
-  margin-left: -1rem;
+  margin-top: -26px;
 }
 
 .about h1 {
@@ -137,7 +130,7 @@ h1 {
 }
 
 .intro span {
-  margin-left: -14rem;
+  margin-left: 2rem;
 }
 
 .navbar {
@@ -286,7 +279,12 @@ footer .footerlinks {
 }
 
 .partner {
-  height: 80px;
+  height: 33px;
+  margin-left: 5px;
+}
+
+.partner2 {
+  height: 33px;
 }
 
 footer .footericons a {
@@ -577,9 +575,8 @@ footer {
 }
 
 .partner3 {
-  padding: 1rem;
-  width: 82%;
-  margin-bottom: -42px;
+  padding: 3rem;
+  width: 46%;
 }
 
 .navbar-brand-img1 {
@@ -592,8 +589,6 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 3rem;
-
-    /* background-color: #272a31; */
   }
 
   .navbar {
@@ -603,20 +598,16 @@ footer {
     padding: 0.5rem 1rem;
   }
 
-  /* .navbar-brand {
-    display: inline-block;
-  } */
-
   .partner3 {
-    padding: 1rem;
-    width: 60%;
-    margin-bottom: -42px;
+    padding: 3rem;
+    width: 46%;
+    margin-bottom: -45px;
   }
 
   #mr-5 {
-    width: 51%;
-    margin-left: 41%;
-    margin-bottom: -36%;
+    width: 37%;
+    margin-left: 51%;
+    margin-bottom: -32%;
   }
 
   h1 {
@@ -634,7 +625,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
     background-color: white;
   }
 
@@ -751,7 +741,7 @@ footer {
   }
 
   .partner3 {
-    padding: 1rem;
+    padding: 2rem;
     width: 33%;
   }
 
