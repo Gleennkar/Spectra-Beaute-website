@@ -7,8 +7,7 @@ function openNav() {
 function closeNav() {
   document.getElementById('myNav').style.width = '0%';
 }
-
-
+// my product section
 const project = [
   {
     id: 0,
@@ -77,17 +76,20 @@ const project = [
     button: 'Buy Now',
 
   },
-  
+
 ];
 
 const workSection = document.querySelector('.row');
 
 project.forEach((work) => {
-  let media = document.createElement('div');
+  const media = document.createElement('div');
   media.classList.add('media');
+  media.classList.add('col-12');
+  media.classList.add('col-md-6');
+  media.classList.add('mt-4');
   media.innerHTML = `
 
-  <div class="media col-12 col-md-6 mt-4">
+ 
         <img src=${work.img} class="roundimg">
         <div class="media-body">
           <h5>${work.title}</h5>

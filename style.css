@@ -20,7 +20,6 @@ header {
 
 a {
   text-decoration: none;
-
 }
 
 .navdiv {
@@ -32,7 +31,7 @@ nav img {
   height: 80px;
 }
 
- /* .navbar-brand-img1 { 
+/* .navbar-brand-img1 {
   display: none;
 } */
 
@@ -48,9 +47,9 @@ nav img {
   margin-left: 53px;
 }
 
-/* nav .navlinks { 
+/* nav .navlinks {
   width: 46%;
-}*/
+} */
 
 .intro {
   height: 100vh;
@@ -108,6 +107,7 @@ h1 {
   margin: 2rem;
   padding: 1rem;
   max-width: 550px;
+
   /* margin-left: -7rem; */
 }
 
@@ -134,23 +134,16 @@ h1 {
   color: black;
   margin-top: 12px;
   padding-left: 29px;
-} 
-
-.intro-date {
-  font-size: 20px;
-  font-weight: 800;
-  /* margin-left: 2rem; */
 }
 
 .intro span {
   margin-left: -14rem;
 }
 
- .navbar { 
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    /* float: left; */
+.navbar {
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
 nav .navlinks .active {
@@ -403,6 +396,10 @@ footer #icon {
   align-items: center;
 }
 
+.navbar span {
+  margin-right: 100%;
+}
+
 .about .contact-us span {
   columns: black;
   font-size: 18px;
@@ -445,6 +442,7 @@ footer {
 
 .footer-message {
   /* width: 84%; */
+
   /* height: 0%; */
   margin-right: 72px;
   color: black;
@@ -585,11 +583,7 @@ footer {
 }
 
 .navbar-brand-img1 {
-display: none;
-}
-
-.navbar span {
-  margin-right: 100%;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -602,14 +596,14 @@ display: none;
     /* background-color: #272a31; */
   }
 
-  .navbar { 
+  .navbar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-}
+  }
 
-  /* .navbar-brand { 
+  /* .navbar-brand {
     display: inline-block;
   } */
 
@@ -689,11 +683,11 @@ display: none;
     margin-right: 72px;
     color: black;
     margin-top: 11px;
-}
+  }
 
-#footer {
-  background-color: #272a31;
-}
+  #footer {
+    background-color: #272a31;
+  }
 }
 
 @media (min-width: 975px) {
@@ -705,19 +699,19 @@ display: none;
     display: none;
   }
 
-  .navbar { 
+  .navbar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
     margin-top: -12px;
     margin-bottom: -17px;
-}
+  }
 
   .card-img {
     height: 50%;
     width: 100%;
-}
+  }
 
   #foot {
     background-color: #272a31;
@@ -747,11 +741,10 @@ display: none;
     margin-left: 2rem;
     margin-left: -10rem;
   }
-  
+
   .intro span {
     margin-left: -24rem;
   }
-  
 
   footer {
     color: #d3d3d3;
