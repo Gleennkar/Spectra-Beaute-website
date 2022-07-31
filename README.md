@@ -50,13 +50,9 @@ $ git clone https://github.com/Gleennkar/Spectra-Beaute-website.git
 
 👤 **Odette Gleen Nkar**
 
-- Github: [@Georjane](https://github.com/Gleennkar)
-- Twitter: [@WittyJany](https://twitter.com/gleeny24)
-- Linkedin: [witah](https://www.linkedin.com/in/gleeny-74b8bb184)
-
-GitHub: @Gleennkar
-Twitter: @gleeny24
-LinkedIn: @gleeny
+- Github: [@Gleennkar](https://github.com/Gleennkar)
+- Twitter: [@gleeny24](https://twitter.com/gleeny24)
+- Linkedin: [@gleeny](https://www.linkedin.com/in/gleeny-74b8bb184
 
 # 🤝 Contributing
 
